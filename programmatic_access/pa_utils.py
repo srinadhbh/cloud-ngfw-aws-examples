@@ -13,7 +13,7 @@ prog_acc_logger = logging.getLogger(PROGRAMMATIC_ACCESS_LOGGER)
 prog_acc_logger.setLevel(logging.INFO)
 
 logFormatter = logging.Formatter(
-    fmt='%(name)s : [%(levelname)s]  %(asctime)s.%(msecs)03dZ\t%(message)s\t|- %(module)s:%(lineno)s',
+    fmt='%(name)s : [%(levelname)s]  %(asctime)s.%(msecs)03dZ\t%(message)s',
     datefmt='%Y-%m-%dT%H:%M:%S',
 )
 
