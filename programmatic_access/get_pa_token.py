@@ -138,5 +138,5 @@ if __name__ == "__main__":
     assert resp_dict['ResponseStatus']['ErrorCode'] == 0
 
     # Output
-    pa_logger.info("Cloud NGFW Programmatic Access Token: {resp_dict['Response']['TokenId']}")
+    pa_logger.info(f"Cloud NGFW Programmatic Access Token: {resp_dict['Response']['TokenId']}")
     
