@@ -17,6 +17,11 @@ prog_acc_logger.setLevel(logging.INFO)
 #    datefmt='%Y-%m-%dT%H:%M:%S',
 #)
 
+logFormatter = logging.Formatter(
+    fmt='%(message)s',
+    datefmt='%Y-%m-%dT%H:%M:%S',
+)
+
 streamHandler = logging.StreamHandler()
 streamHandler.setFormatter(logFormatter)
 
