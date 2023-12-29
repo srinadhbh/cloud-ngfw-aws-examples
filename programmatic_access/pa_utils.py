@@ -12,10 +12,10 @@ ROLE_SESSION_NAME_DEFAULT = "access_cloudngfw"
 prog_acc_logger = logging.getLogger(PROGRAMMATIC_ACCESS_LOGGER)
 prog_acc_logger.setLevel(logging.INFO)
 
-logFormatter = logging.Formatter(
-    fmt='%(name)s : [%(levelname)s]  %(asctime)s.%(msecs)03dZ\t%(message)s',
-    datefmt='%Y-%m-%dT%H:%M:%S',
-)
+#logFormatter = logging.Formatter(
+#    fmt='%(name)s : [%(levelname)s]  %(asctime)s.%(msecs)03dZ\t%(message)s',
+#    datefmt='%Y-%m-%dT%H:%M:%S',
+#)
 
 streamHandler = logging.StreamHandler()
 streamHandler.setFormatter(logFormatter)
